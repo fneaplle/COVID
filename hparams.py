@@ -1,5 +1,5 @@
-DATA_PATH='C:\\Users\\Heesang\\Desktop\\covid19-pneumonia-normal-chest-xraypa-dataset\\COVID19_Pneumonia_Normal_Chest_Xray_PA_Dataset\\'
-TEST_DATA_PATH='C:\\Users\\Heesang\\Desktop\\CTDATA\\Femur_Classification_Test\\'
+DATA_PATH='~\\COVID19_Pneumonia_Normal_Chest_Xray_PA_Dataset\\'
+TEST_DATA_PATH='~\\Femur_Classification_Test\\'
 MNIST_DATA_PATH=DATA_PATH+'\\mnist\\'
 #IMG_HEIGHT=817
 #IMG_WIDTH=1068
