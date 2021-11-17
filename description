@@ -1,0 +1,20 @@
+1. original image size (817, 1068, 3)
+2. 이미지는 uint8 로 하면 된다. 왜냐면 gray scale을 나타내는 숫자가 0~255라서
+    2.1 모델에 넣어줄 때에는 꼭!! 실수형으로 type casting해서
+    2.2 plt.imshow로 볼때에는 정수형으로 바꿔서
+3. Sparsecategorical~~
+    Label : integer
+    y_pred : vector(float)
+    Reduction :
+        AUTO : average of batch
+        None : No average or No Summation of batch
+        SUM : sum of batch
+4.from_logits
+    True: 모델의 출력값이 확률값이 아닐때
+    False: 모델의 출력값이 확률값일 때
+5. covid(0) : 1525개
+    normal(1) : 1525개
+    pneumonia(2) : 1525개
+    20개를 Test로 빼놓고 남은것 중에서 80%(train) 20%(Validation)으로 하였다.
+
+
